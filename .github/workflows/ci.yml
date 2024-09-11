@@ -25,7 +25,7 @@ jobs:
         context: .
         file: app/Dockerfile
         push: true
-        tags: your-dockerhub-username/my-flask-app:latest
+        tags: sergalek/my-flask-app:latest
       env:
         DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
         DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
