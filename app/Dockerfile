@@ -17,4 +17,4 @@ EXPOSE 5001
 ENV NAME DevOps
 
 # Running app.py when the container launches
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
