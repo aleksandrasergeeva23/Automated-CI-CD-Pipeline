@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Installing any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Making port 5001 available to the world outside this container
 EXPOSE 5001
